@@ -1,3 +1,5 @@
+// Home.jsx
+
 import React, { useEffect, useRef } from 'react';
 import './home.css';
 import menuIcon from './assets/menu.png';
@@ -87,19 +89,19 @@ const Home = () => {
             <img src={projectImage1} alt="Project" className="project-pic" />
             <h3 className="project-title">Project 1</h3>
             <p className="project-details">Description of Project 1...</p>
-            <a href="https://github.com/Alex-pu/project1" target="_blank" className="project-link">Check it Out!</a>
+            <a href="https://github.com/Alex-pu/project1" target="_blank" rel="noreferrer" className="project-link">Check it Out!</a>
           </div>
           <div className="project-card">
             <img src={projectImage2} alt="Project" className="project-pic" />
             <h3 className="project-title">Project 2</h3>
             <p className="project-details">Description of Project 2...</p>
-            <a href="https://github.com/Alex-pu/project2" target="_blank" className="project-link">Check it Out!</a>
+            <a href="https://github.com/Alex-pu/project2" target="_blank" rel="noreferrer" className="project-link">Check it Out!</a>
           </div>
           <div className="project-card">
             <img src={projectImage3} alt="Project" className="project-pic" />
             <h3 className="project-title">Project 3</h3>
             <p className="project-details">Description of Project 3...</p>
-            <a href="https://github.com/Alex-pu/project3" target="_blank" className="project-link">Check it Out!</a>
+            <a href="https://github.com/Alex-pu/project3" target="_blank" rel="noreferrer" className="project-link">Check it Out!</a>
           </div>
         </div>
       </section>
