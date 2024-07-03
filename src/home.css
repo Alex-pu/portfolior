@@ -30,11 +30,23 @@ body {
     z-index: 1000;
   }
   
+  .x-div{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #333;
+    width: 50%;
+
+
+  }
+
   .navbar h1 {
     color: #00FF00;
     margin: 0;
   }
-  
+
+ 
+
   .menu-btn {
     display: none;
     background: none;
@@ -70,7 +82,7 @@ body {
   }
   
   .hero-img {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 10px;
   }

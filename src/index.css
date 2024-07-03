@@ -40,6 +40,7 @@ body {
   font-size: 1.5rem;
 }
 
+
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -353,6 +354,11 @@ body {
   .hero-img {
     width: 150px;
     height: 150px;
+  }
+
+  .x {
+    width: 35px;
+    height: 35px;
   }
 
   .bio-title {
