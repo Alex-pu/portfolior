@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Alex-pu.github.io/my-portfolior", 
+  "homepage": "/my-portfolior", 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
