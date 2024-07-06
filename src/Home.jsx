@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './home.css';
 import menuIcon from './assets/menu.png';
-import heroImage from './assets/hero.jpg';
+import heroImage from './assets/hero.webp';
 import projectImage1 from './assets/data.png';
 import projectImage2 from './assets/web.png';
 import projectImage3 from './assets/map.png'; // Example project image
@@ -25,7 +25,7 @@ const Home = () => {
   const bioRef = useRef(null);
 
   useEffect(() => {
-    const bioText = "I'm Alex Kamau, a passionate and enthusiastic developer fueled by an insatiable curiosity  and a love for continuous learning. ";
+    const bioText = "Alex: a passionate and enthusiastic developer fueled by insatiable curiosity  and the love for continuous learning and colaborating. ";
     let index = 0;
     const typingInterval = setInterval(() => {
       if (index < bioText.length) {
