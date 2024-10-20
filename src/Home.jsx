@@ -145,15 +145,15 @@ Second Class Upper</p>
         <div className="projects-container">
           <div className="project-card">
             <img src={projectImage1} alt="Project" className="project-pic" />
-            <h3 className="project-title">2022 Kenyan Election analysis</h3>
-            <p className="project-details">Data nalysis projects on google Colabs...</p>
-            <a href="https://github.com/Alex-pu/project1" target="_blank" rel="noreferrer" onClick={pop} className="project-link" >Check it Out!</a>
+            <h3 className="project-title">Windsor Election analysis</h3>
+            <p className="project-details">Data analysis projects on google Colabs...</p>
+            <a href="https://github.com/Alex-pu/Data-analysis-with-python" target="_blank" rel="noreferrer"  className="project-link" >Check it Out!</a>
           </div>
           <div className="project-card">
             <img src={projectImage2} alt="Project" className="project-pic" />
             <h3 className="project-title">React Projects</h3>
             <p className="project-details">A collection of frontend repositories...</p>
-            <a href="https://github.com/Alex-pu/project2" target="_blank" rel="noreferrer" onClick={pop} className="project-link">Check it Out!</a>
+            <a href="https://movers-uv61.vercel.app/" target="_blank" rel="noreferrer"  className="project-link">Check it Out!</a>
           </div>
           <div className="project-card">
             <img src={projectImage3} alt="Project" className="project-pic" />

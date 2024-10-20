@@ -310,7 +310,6 @@ body {
 .contact-info-blink {
   margin-top: 20px;
   font-size: 0.9rem;
-  animation: blink-animation 1s infinite;
   color: #555;
 }
 
